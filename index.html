@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head><title>Defi Dbank</title>
+	<meta name="keywords" content="Defi bank, Dbank Dapp, defi dbank, defi dbank">
+	<link rel="stylesheet" href="https://pyscript.net/releases/2023.03.1/pyscript.css" />
+    <script defer src="https://pyscript.net/releases/2023.03.1/pyscript.js"></script>
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset= "UTF-8">
+	<meta name = "description" content="This is a basic web3 decentralized finance app that compounds your intrest per second.">
+</head>
+
+<style>
+.container{
+ border-style:inset;
+ display:flex; 
+ text-align:center;
+ justify-content:center;
+ border-radius:25px;
+ border-color:black;
+ width:270px;
+ height:470px;
+ margin:auto;
+
+}
+</style>
+<body style="background-color:#36454f">
+	<br><br>
+	<form class="container" style="background-color:#252525"> <!-- #6e7f80-->
+		<div>
+			<img src="default.png" width="100px" height="100px">
+		<h4 class="typed" style="color:white">SAMAD DBANK</h4>
+	 <h3 style="color:white"> Current amount: $300<h3>
+	 	<hr style="width:60px padding:120px">
+	<small style="color:white">Amount to Add</small> <br>
+	<input type="Text" style="border-radius:10px; height:30px; width:95%"></input> <br>
+	<small style="color:white">Amount to Withdraw</small> <br>
+	<input type="Text" style="border-radius:10px; height:30px; width:95%"></input> <br>
+	<br>
+	<input type="submit" value="Finalise Transaction" style="width:100%;  text-align:center; background-color:#708090; height:80px; border-radius:15px"></input>
+	 <br>
+	</form>
+	<br>
+
+		A decentralized application built on internet computer blockchain which you can deposit money, withdraw and the app gives you a certain amount in compound intrest per second.
+
+
+
+<py-config src="./pyscript.toml"></py-config>
+    <py-script src="./main.py"></py-script>
+
+</body>
+</html>
